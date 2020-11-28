@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <table border="2">
+          <tr>
+              <th colspan="3">About me</th>
+          </tr>
+          <tr>
+              <th rowspan="3">
+                  <img src="download.png" alt="profile" width="300" height="300">
+              </th>
+              <th colspan="2">
+                <form action="/action_page.php" style="text-align:left;">
+                    <label for="name"> Name:</label>
+                    <input type="text" >
+                </form>
+                <form action="/action_page.php" style="text-align:left;">
+                    <label for="gender"> Gender:</label>
+                    <input type="radio">
+                    <label id="gender1" name="gender" value="Male" checked>Male</label>
+                    <input type="radio">
+                    <label id="gender2" name="gender" value="Female">Female</label>
+                    <input type="radio">
+                    <label id="gender3" name="gender" value="Other">Other</label>                  
+                 </form>
+              </th>
+          </tr>
+          <tr>
+              <th>
+              <form action="/action_page.php" style="text-align:left;">
+                <label for="country">Country:</label>
+                <select name="country">
+                    <option value="Taipei">Taipei</option>
+                    <option value="New-Taipei">New-Taipei</option>
+                    <option value="TaoYuan">TaoYuan</option>
+                    <option value="TaiChung">TaiChung</option>
+                    <option value="Tainan">Tainan</option>
+                    <option value="KaoHsiung">KaoHsiung</option>
+                </select>
+
+              </form>
+              </th>
+              <th>
+                  <form action="/action_page.php" style="text-align:left;">
+                    <label for="birthday"> Birthday:</label>
+                    <input type="text">
+
+                  </form>
+              </th>
+          </tr>
+          <tr>
+              <th colspan="2">
+              <form action="/action_page.php" style="text-align:left;">
+                  <label for="email"> E-mail:</label>
+                  <input type="text" size="20" maxlength="30">
+              </form>
+              </th>
+          </tr>
+          <tr>
+              <th style="text-align:left;">Hobby</th>
+              <th colspan="2"> 
+                  <form action="/action_page.php" style="text-align:left;">
+                      <input type="checkbox" value="Swimming">
+                      <label for="hobby1">Swimming</label>
+                      <input type="checkbox" value="Volleyball">
+                      <label for="hobby2">Volleyball</label>
+                      <input type="checkbox" value="Movies">
+                      <label for="hobby3">Movies</label>
+                      <input type="checkbox" value="Games">
+                      <label for="hobby4">Games</label>
+                      <input type="checkbox" value="Sleeping">
+                      <label for="hobby5">Sleeping</label>
+                  </form>
+              </th>
+          </tr>
+          <tr>
+            <th style="text-align:left;">Skill</th>
+              <th colspan="2"> 
+                  <form action="/action_page.php" style="text-align:left;">
+                      <input type="checkbox" value="Java">
+                      <label for="skill1">Java</label>
+                      <input type="checkbox" value="HTML">
+                      <label for="skill2">HTML</label>
+                      <input type="checkbox" value="Python">
+                      <label for="skill3">Python</label>
+                      <input type="checkbox" value="Microsoft Office">
+                      <label for="skill4">Microsoft Office </label>
+                      <input type="checkbox" value="Adobe Premiere">
+                      <label for="skill5">Adobe Premiere</label>
+                  </form>
+              </th>
+          </tr>
+          <tr>
+              <th style="text-align:left;">Say Something</th>
+              <th colspan="2">
+                  <form action="/action_page.php" style="text-align:left;"><br>
+                    <textarea id="saysomething" name="saysomething" rows="5" cols="50">Say something here.</textarea>
+
+                  </form>
+              </th>
+          </tr>
+          <tr>
+              <th colspan="3">
+              <input type="submit" value="Submit">
+              <input type="reset"  value="重設">
+              </th>
+          </tr>
+        </table>
+    </body>
+</html>
